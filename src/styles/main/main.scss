@@ -1,14 +1,4 @@
-$scheme: (
-  darkblue: #030426,
-  green: #7ad2bc,
-  orange: #ea8a48,
-  darkorange: #c75827,
-  yellow: #ffde59,
-);
-
-@function color($color-name) {
-  @return map-get($scheme, $color-name);
-}
+@import "../variables/variables.scss";
 
 * {
   margin: 0;
@@ -177,43 +167,9 @@ nav {
   //   font-weight: bold;
 }
 
-// Main
+// Footer
 
-main {
-  // min-height: 100vh;
-  position: relative;
-}
-
-.website-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  margin-top: 1rem;
-  background: map-get($scheme, green);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding: 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  width: 75%;
-  margin: 3rem auto;
-  border: 1px solid white;
-}
-
-.menu img {
-  width: 100%;
-}
-.footer-container {
+footer {
   background: color(orange);
   width: 100%;
   display: flex;
@@ -222,7 +178,6 @@ main {
   height: 3rem;
   align-items: center;
   position: absolute;
-  bottom: 0;
 }
 
 .copyright {
@@ -240,13 +195,6 @@ main {
 
   .nav-list {
     display: none;
-  }
-
-  .menu {
-    width: 100%;
-    border: none;
-    padding: 0;
-    margin: 3rem auto 1rem auto;
   }
 
   #logo {

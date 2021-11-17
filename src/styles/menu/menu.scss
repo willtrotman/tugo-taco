@@ -1,0 +1,22 @@
+@import "../variables/variables.scss";
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: 3rem auto;
+  border: 1px solid white;
+}
+
+.menu img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 3rem auto 1rem auto;
+  }
+}

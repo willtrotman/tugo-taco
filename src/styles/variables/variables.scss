@@ -1,0 +1,11 @@
+$scheme: (
+  darkblue: #030426,
+  green: #7ad2bc,
+  orange: #ea8a48,
+  darkorange: #c75827,
+  yellow: #ffde59,
+);
+
+@function color($color-name) {
+  @return map-get($scheme, $color-name);
+}

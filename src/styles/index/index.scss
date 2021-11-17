@@ -1,0 +1,12 @@
+@import "../variables/variables.scss";
+
+.news-letter-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.text-large {
+  color: white;
+}
