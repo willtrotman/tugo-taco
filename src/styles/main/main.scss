@@ -9,11 +9,15 @@
 body,
 html {
   width: 100%;
-  font-family: sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
   background-color: color(darkblue);
+}
+
+button {
+  cursor: pointer;
 }
 
 // Header
@@ -26,7 +30,7 @@ header {
 
 nav {
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -146,7 +150,7 @@ nav {
 }
 
 .nav-item {
-  margin: 0 0.5rem;
+  margin: 0 0.3rem;
   display: flex;
   align-items: center;
   border: 1px solid transparent;
@@ -164,13 +168,13 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  //   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 // Footer
 
 footer {
-  background: color(orange);
+  background: color(green);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -178,10 +182,15 @@ footer {
   height: 3rem;
   align-items: center;
   position: absolute;
+  // bottom: 0;
 }
 
 .copyright {
   color: white;
+}
+
+.section {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
@@ -203,5 +212,19 @@ footer {
 
   .menu-icon {
     display: flex;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
