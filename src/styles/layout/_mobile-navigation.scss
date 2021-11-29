@@ -1,0 +1,32 @@
+.mobile-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 98;
+  background-color: color(darkblue);
+  padding-top: 10rem;
+  transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+  background-color: color(orange);
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-nav a:hover {
+  background-color: color(green);
+}

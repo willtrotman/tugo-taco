@@ -1,0 +1,12 @@
+header {
+  background: color(orange);
+  height: 7rem;
+  display: flex;
+  font-family: "Architect";
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 5rem;
+  }
+}

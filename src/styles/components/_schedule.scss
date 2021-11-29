@@ -1,0 +1,76 @@
+.section--schedule {
+  background-color: color(mint);
+}
+
+.schedule-container {
+  width: 65%;
+  margin: 0 auto;
+  color: color(green);
+  padding: 4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 1rem;
+}
+
+.day-date {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.weekday {
+  font-size: 1.2rem;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.month {
+  font-size: 1.2rem;
+}
+
+.day-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  justify-content: center;
+}
+
+.location {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .day {
+    flex-direction: column;
+  }
+  .day-info,
+  .location,
+  .time {
+    margin: 0;
+    text-align: center;
+  }
+
+  .schedule-container {
+    .section-heading {
+      border-bottom: 1px solid color(darkblue);
+    }
+  }
+}

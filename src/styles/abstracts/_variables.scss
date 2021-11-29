@@ -1,0 +1,23 @@
+// *******************
+// COLOR VARIABLES
+// *******************
+
+$scheme: (
+  darkblue: #030426,
+  green: #7ad2bc,
+  orange: #ea8a48,
+  darkorange: #c75827,
+  yellow: #ffde59,
+  mint: rgb(253, 255, 244),
+);
+
+// *******************
+// BREAKPOINTS
+// *******************
+$breakpoint-desktop: 1200px;
+$breakpoint-laptop: 950px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 400px;
+// @media (max-width: $breakpoint-tablet) {
+
+// }

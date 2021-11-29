@@ -1,0 +1,28 @@
+.section--social-media {
+  background-color: color(orange);
+  // height: 30vh;
+}
+
+.social-media-container {
+  width: 75%;
+  margin: 0 auto;
+  color: white;
+  padding: 4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-bar {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 4rem;
+  color: color(green);
+  margin: 0 1.5rem;
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Architect;
+  src: url("/ArchitectsDaughter-Regular.88ab26be.ttf");
+}
+@font-face {
+  font-family: newFont;
+  src: url("/Caveat-VariableFont_wght.ef71978f.ttf");
+}
+body {
+  background-color: red;
+}
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */

@@ -1,0 +1,25 @@
+{
+  "name": "tugo-taco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willtrotman/tugo-taco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willtrotman/tugo-taco/issues"
+  },
+  "homepage": "https://github.com/willtrotman/tugo-taco#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.5"
+  }
+}

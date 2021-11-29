@@ -1,0 +1,21 @@
+@import "../fonts/fonts.scss";
+@import "../variables/variables.scss";
+
+.section--about {
+  height: 40vh;
+  background-color: color(mint);
+  .section-heading {
+    color: color(green);
+  }
+}
+
+.about-paragraph {
+  text-align: center;
+  line-height: 1.4;
+  color: color(darkblue);
+  font-size: 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
