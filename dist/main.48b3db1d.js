@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf":[["ArchitectsDaughter-Regular.88ab26be.ttf","../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf"],"../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf"],"./../../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf":[["Caveat-VariableFont_wght.ef71978f.ttf","../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf"],"../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf":[["ArchitectsDaughter-Regular.88ab26be.ttf","../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf"],"../assets/fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf"],"./../../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf":[["Caveat-VariableFont_wght.ef71978f.ttf","../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf"],"../assets/fonts/Caveat/Caveat-VariableFont_wght.ttf"],"./../../assets/images/tacos/taco-1.jpg":[["taco-1.528bc843.jpg","../assets/images/tacos/taco-1.jpg"],"../assets/images/tacos/taco-1.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58565" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50052" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

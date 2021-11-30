@@ -1,5 +1,4 @@
-@use "./abstracts";
+@import "./abstracts/index";
+@import "./base/index";
 
-body {
-  background-color: red;
-}
+@import "./components/index.scss";
