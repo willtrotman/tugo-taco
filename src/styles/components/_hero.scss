@@ -1,31 +1,32 @@
 .hero {
-  @media screen and (max-width: 768px) {
-    background-position: center;
-  }
-}
-
-.section--hero {
   background-image: url("../../assets/images/tacos/taco-1.jpg");
   background-position: center;
   height: calc(100vh - 7rem);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  padding: 7rem 20rem;
+  z-index: 0;
+  @media screen and (max-width: $breakpoint-tablet) {
+    padding: 6rem 2rem;
+  }
 }
 
-.overlay {
-  height: 100%;
+.hero::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
-.hero-container {
-  width: 75%;
-  margin: 0 auto;
-  padding: 7rem;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+.hero > * {
+  position: relative;
+  z-index: 10;
 }
 
 .hero-heading {
@@ -35,4 +36,8 @@
   font-size: 6rem;
   text-transform: uppercase;
   font-family: "Architect";
+  @media screen and (max-width: $breakpoint-tablet) {
+    font-size: 4rem;
+    text-align: center;
+  }
 }
