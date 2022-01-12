@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugo Taco</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="./styles/main.scss" />
     <link
       rel="stylesheet"
@@ -42,7 +43,7 @@
             <a href="#">Catering</a>
           </li>
           <li class="nav-item">
-            <a href="#">Calendar</a>
+            <a href="./calendar.html">Calendar</a>
           </li>
           <li class="nav-item">
             <a href="#contact">Contact</a>
@@ -60,44 +61,27 @@
       <!-- <a href="#about">The Crew</a>
       <a href="#schedule">Cart Location</a> -->
       <a href="#">Catering</a>
-      <a href="#">Calendar</a>
+      <a href="./calendar.html">Calendar</a>
       <a href="#contact">Contact</a>
     </div>
-    <!-- Hero -->
-    <div class="hero">
-      <h1 class="hero-heading">Tacos to go!</h1>
-      <a
-        href="../assets/images/menu/normal/tugo-menu-dark.pdf"
-        class="btn"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Menu</a
-      >
-    </div>
-    <!-- Social Media -->
-    <div class="section--social-media section">
-      <h3 class="section-heading">Keep up with Tugo on Instagram!</h3>
-      <div class="social-bar">
-        <a href="https://www.instagram.com/tugo.taco/">
-          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-        </a>
-        <!-- <a href="#">
-          <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
-        </a>
-        <a href="#">
-          <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
-        </a> -->
+    <!-- Schedule -->
+    <div class="section--schedule section">
+      <h3 class="section-heading">Schedule</h3>
+      <div class="schedule-container container">
+        <div class="calendar-day">
+          <div class="date">
+            <div class="date-month"></div>
+            <div class="date-number"></div>
+            <div class="date-weekday"></div>
+          </div>
+          <div class="event">
+            <div class="event-title"></div>
+            <div class="event-location"></div>
+            <div class="event-time"></div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- Contact -->
-
-    <div class="section--contact section" id="contact">
-      <h3 class="section-heading">Contact</h3>
-      <div class="contact-info">Phone: (615) 558-8176</div>
-      <div class="contact-info">Email: tugotaco@gmail.com</div>
-    </div>
-
     <!-- Footer -->
     <footer>
       <h5 class="copyright">© 2021 Tugo Taco</h5>
@@ -111,5 +95,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="main.js"></script>
+    <script src="./calendar.js"></script>
   </body>
 </html>

@@ -1,4 +1,6 @@
 .hero {
+  display: flex;
+  flex-direction: column;
   background-image: url("../../assets/images/tacos/taco-1.jpg");
   background-position: center;
   height: calc(100vh - 7rem);
@@ -10,6 +12,9 @@
   z-index: 0;
   @media screen and (max-width: $breakpoint-tablet) {
     padding: 6rem 2rem;
+  }
+  @media screen and (max-width: $breakpoint-laptop) {
+    align-items: center;
   }
 }
 

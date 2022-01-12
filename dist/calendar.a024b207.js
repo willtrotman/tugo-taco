@@ -117,14 +117,21 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"main.js":[function(require,module,exports) {
-var menuBtn = document.querySelector(".menu-icon");
-var navList = document.querySelector(".nav-list");
-menuBtn.addEventListener("click", function () {
-  menuBtn.classList.toggle("open");
-  var mobileMenu = document.querySelector(".mobile-nav");
-  mobileMenu.classList.toggle("is-active");
-});
+})({"calendar.js":[function(require,module,exports) {
+var scheduleContainer = document.querySelector(".schedule-container");
+var calendarEvent = document.querySelector(".calendar-day");
+var eventMonth = document.querySelector(".date-month");
+var eventDayNumber = document.querySelector(".date-number");
+var eventWeekday = document.querySelector(".date-weekday");
+var eventTitle = document.querySelector(".event-title");
+var eventLocation = document.querySelector(".event-location");
+var eventTime = document.querySelector(".event-time");
+eventMonth.textContent = "Dec";
+eventDayNumber.textContent = "2";
+eventWeekday.textContent = "Thursday";
+eventTitle.textContent = "Servin up some nice tacos";
+eventLocation.textContent = "The ped walkway";
+eventTime.textContent = "11:30 AM";
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -329,5 +336,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","main.js"], null)
-//# sourceMappingURL=/main.1f19ae8e.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","calendar.js"], null)
+//# sourceMappingURL=/calendar.a024b207.js.map

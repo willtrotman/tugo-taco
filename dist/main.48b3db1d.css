@@ -22,6 +22,12 @@ body {
   background-color: #030426;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   cursor: pointer;
 }
@@ -102,6 +108,8 @@ button {
   }
 }
 .hero {
+  display: flex;
+  flex-direction: column;
   background-image: url("/taco-1.528bc843.jpg");
   background-position: center;
   height: calc(100vh - 7rem);
@@ -115,6 +123,11 @@ button {
 @media screen and (max-width: 768px) {
   .hero {
     padding: 6rem 2rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hero {
+    align-items: center;
   }
 }
 
@@ -232,6 +245,56 @@ button {
   font-size: 2rem;
   color: #7ad2bc;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.section--schedule {
+  background: #fdfff4;
+}
+.section--schedule .section-heading {
+  color: #7ad2bc;
+}
+
+.schedule-container {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Architect";
+  font-weight: bold;
+}
+
+.calendar-day {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+  width: 100%;
+}
+.calendar-day .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar-day .date .date-month {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.calendar-day .date .date-number {
+  font-size: 2.5rem;
+}
+.calendar-day .date .date-weekday {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.calendar-day .event {
+  text-align: center;
+}
+.calendar-day .event .event-title {
+  font-size: 1.4rem;
+}
+.calendar-day .event .event-location {
+  font-size: 1.3rem;
+}
+.calendar-day .event .event-time {
+  font-size: 2rem;
 }
 
 footer {

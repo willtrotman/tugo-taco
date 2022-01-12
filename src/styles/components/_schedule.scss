@@ -1,0 +1,53 @@
+.section--schedule {
+  background: color(mint);
+  .section-heading {
+    color: color(green);
+  }
+}
+
+.schedule-container {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Architect";
+  font-weight: bold;
+}
+
+.calendar-day {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10rem;
+  width: 100%;
+
+  .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .date-month {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+    }
+    .date-number {
+      font-size: 2.5rem;
+    }
+    .date-weekday {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .event {
+    text-align: center;
+
+    .event-title {
+      font-size: 1.4rem;
+    }
+    .event-location {
+      font-size: 1.3rem;
+    }
+    .event-time {
+      font-size: 2rem;
+    }
+  }
+}
