@@ -22,6 +22,14 @@ body {
   background-color: #030426;
 }
 
+.coming-soon {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -247,6 +255,40 @@ button {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-input {
+  border: 1.5px solid #ea8a48;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-input--big {
+  height: 10rem;
+}
+
+.contact-input--big::placeholder {
+  position: absolute;
+}
+
+.form-submit {
+  color: gray;
+  width: 7rem;
+  height: 3rem;
+  margin: 0 auto;
+  background: #fdfff4;
+  border: 1px solid #ea8a48;
+  border-radius: 5px;
+}
+
 .section--schedule {
   background: #fdfff4;
 }
@@ -306,6 +348,10 @@ footer {
   height: 3rem;
   align-items: center;
   position: absolute;
+}
+
+footer.page-empty {
+  bottom: 0;
 }
 
 .copyright {
